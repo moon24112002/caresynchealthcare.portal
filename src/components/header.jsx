@@ -7,8 +7,7 @@ export const Header = (props) => {
         <div className="overlay">
           <div className="container">
             <div className="row">
-              <div className="col-md-8 col-md-offset-2 intro-text">
-              
+              <div className="col-md-8 col-md-offset-2 intro-text">    
                 <div className="search__box"><input type="search" placeholder="Find a Doctor" autofocus required style={{width:'600px', height:'40px', padding:'10px', borderRadius:'12px', background:'rgb(248 248 248 / 59%)', outline:'none'}} />
                </div>
                 <h1>
