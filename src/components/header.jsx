@@ -8,6 +8,9 @@ export const Header = (props) => {
           <div className="container">
             <div className="row">
               <div className="col-md-8 col-md-offset-2 intro-text">
+              
+                <div className="search__box"><input type="search" placeholder="Find a Doctor" autofocus required style={{width:'600px', height:'40px', padding:'10px', borderRadius:'12px', background:'rgb(248 248 248 / 59%)', outline:'none'}} />
+               </div>
                 <h1>
                   {props.data ? props.data.title : "Loading"}
                   <span></span>
@@ -17,8 +20,8 @@ export const Header = (props) => {
                   href="#features"
                   className="btn btn-custom btn-lg page-scroll"
                 >
-                  Learn More
-                </a>{" "}
+                  Book an Appointment
+                </a>
               </div>
             </div>
           </div>

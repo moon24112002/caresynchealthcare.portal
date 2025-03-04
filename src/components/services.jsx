@@ -7,8 +7,9 @@ export const Services = (props) => {
         <div className="section-title">
           <h2>Our Services</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+          Our Scope of services growing with each passing day, in terms of coverage,
+           are ensuring that the best treatment is provided to every patient utilizing them. 
+           Here’s a list of the services that the Hospital is currently working with.
           </p>
         </div>
         <div className="row">
